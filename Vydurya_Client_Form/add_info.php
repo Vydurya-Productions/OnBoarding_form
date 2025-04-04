@@ -23,8 +23,8 @@ function checkRequiredParams() {
 function sendSmtpEmail($to, $from, $fromName, $subject, $message, $attachmentContent, $attachmentName) {
     $smtpHost = 'smtp.gmail.com';
     $smtpPort = 587;
-    $smtpUsername = 'php2.vydurya@gmail.com';
-    $smtpPassword = 'swkv aekj pfdh jequ';
+    $smtpUsername = 'your gmail';
+    $smtpPassword = 'your gmail app password';
     $timeout = 30;
 
     // Create socket connection
